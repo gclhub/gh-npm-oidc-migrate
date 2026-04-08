@@ -107,6 +107,11 @@ If your workflow uses an older Node.js version, add an npm upgrade step:
   run: npm install -g npm@latest
 ```
 
+> **Note on `--provenance`**: When using OIDC trusted publishing with npm v11.5.1+,
+> provenance attestations are **automatically included** with every publish. You do
+> **not** need to add `--provenance` to your `npm publish` command. The flag is still
+> accepted but is unnecessary with trusted publishing enabled.
+
 ### 3. Remove the old NPM token secret
 
 1. Go to your repository **Settings → Secrets and variables → Actions**

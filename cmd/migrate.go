@@ -132,6 +132,7 @@ func printPostMigrationSteps(cmd *cobra.Command) {
 	fmt.Fprintln(cmd.OutOrStdout(), "  2. Ensure npm CLI compatibility:")
 	fmt.Fprintln(cmd.OutOrStdout(), "     - Use npm v11.5.1+ and Node.js 22+ for full OIDC support")
 	fmt.Fprintln(cmd.OutOrStdout(), "     - Or add 'npm install -g npm@latest' step to your workflow")
+	fmt.Fprintln(cmd.OutOrStdout(), "     - Note: --provenance is automatic with OIDC; no flag needed")
 	fmt.Fprintln(cmd.OutOrStdout())
 	fmt.Fprintln(cmd.OutOrStdout(), "  3. Remove the old NPM_TOKEN secret from your repository:")
 	fmt.Fprintln(cmd.OutOrStdout(), "     - Go to Settings → Secrets and variables → Actions")
