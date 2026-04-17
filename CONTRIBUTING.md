@@ -15,7 +15,7 @@ Thanks for your interest in contributing to `gh-npm-oidc-migrate`.
 4. Build locally:
 
    ```bash
-   go build ./...
+   go build -o gh-npm-oidc-migrate .
    ```
 
 ## Pull requests
