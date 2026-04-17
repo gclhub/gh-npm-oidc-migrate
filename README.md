@@ -181,6 +181,18 @@ go build -o gh-npm-oidc-migrate .
 go test ./...
 ```
 
+## Contributing
+
+Contributions are welcome. Please review [CONTRIBUTING.md](CONTRIBUTING.md)
+before opening a pull request.
+
+This project follows [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md). For security
+issues, see [SECURITY.md](SECURITY.md).
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
 ## Learn more
 
 - [npm Trusted Publishing documentation](https://docs.npmjs.com/trusted-publishers)
