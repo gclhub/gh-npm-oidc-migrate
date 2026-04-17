@@ -59,8 +59,9 @@ representative at an online or offline event.
 ## Enforcement
 
 Instances of abusive, harassing, or otherwise unacceptable behavior may be
-reported by opening a private security advisory or issue in this repository and
-tagging `@gclhub`.
+reported privately to `@gclhub` through a direct, non-public contact channel.
+Please do not open a public issue or a security advisory for Code of Conduct
+reports.
 
 All complaints will be reviewed and investigated promptly and fairly.
 
