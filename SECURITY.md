@@ -9,8 +9,7 @@ Security fixes are applied to the latest state of the `main` branch.
 If you discover a security vulnerability, please report it privately:
 
 1. Open a GitHub Security Advisory for this repository, or
-2. Open an issue and clearly mark it as sensitive while avoiding exploit details
-   in public.
+2. Contact the maintainers if private advisories are unavailable.
 
 Please include:
 
